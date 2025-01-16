@@ -4,22 +4,18 @@ public class Main
 {
   public static void main(String[] args)
   {
-    Scanner sc = new Scanner(System.in);
-    String input = "";
-    while (!input.equals("q"))
-    {
-      System.out.println("Input the make of the car, \"default\" to create a default car or \"q\" to quit:");
-      input = sc.nextLine();
-      if (input.equals("default"))
-      {
-        // create default car
-      }
-      else
-      {
-        // ask for model, year, miles per gallon
-      }
+    // Problem 1 - Create a scanner and an array of size 3
 
-      System.out.println(); // print out the car object
-    }
+    // Problem 2
+    // Use the scanner to get user input and give it to the method
+
+    int N = /* scan.nextInt() */;
+    int[] output = sumsOfNums(N);
+  }
+
+  public static int[] sumsOfNums(int input)
+  {
+    // Implement Problem 2 here
+    return 0;
   }
 }
